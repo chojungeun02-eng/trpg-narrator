@@ -1,6 +1,8 @@
 {
   "name": "trpg-narrator",
   "version": "1.0.0",
+  "description": "TRPG Story Narrator",
+  "author": "Your Name",
   "main": "main.js",
   "scripts": {
     "build": "electron-builder --mac"
