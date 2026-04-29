@@ -10,7 +10,10 @@
   "build": {
     "appId": "com.trpg.narrator",
     "productName": "TRPG Narrator",
-    "mac": { "target": "dmg" }
+    "mac": { 
+      "target": "dmg",
+      "identity": null
+    }
   },
   "devDependencies": {
     "electron": "^29.0.0",
