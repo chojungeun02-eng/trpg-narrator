@@ -1,0 +1,17 @@
+{
+  "name": "trpg-narrator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.trpg.narrator",
+    "productName": "TRPG Narrator",
+    "mac": { "target": "dmg" }
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
